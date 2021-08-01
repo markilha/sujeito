@@ -2,8 +2,7 @@
 export default function Home() {
   return (
     <div >
-      <h1>TESTE</h1>
-     
+      <h1>Sujeito Programador</h1>     
     </div>
   )
 }
