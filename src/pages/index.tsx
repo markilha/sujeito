@@ -45,9 +45,7 @@ export default function Home() {
           <h2>Aprenda criar sistemas web</h2>
           <span>Criar sistemas web, sites usando as tecnologias mais modernas e requisitadas pelo mercado.</span>
         </section>
-      </div>
-
-
+      </div> 
     </main>
    </>
   )
