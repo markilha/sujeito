@@ -111,7 +111,7 @@ export default function Posts({ posts: postsBlog, page, totalPage }: PostsProps)
 
             {Number(currentPage) >= 2 && (
               <div>
-                <button placeholder="ola mundo" onClick={() => navigatePage(1)}>
+                <button onClick={() => navigatePage(1)}>
                   <FiChevronsLeft size={25} color="#FFF" />
                 </button>
                 <button onClick={() => navigatePage(Number(currentPage - 1))}>
