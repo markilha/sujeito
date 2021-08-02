@@ -26,7 +26,7 @@ export default function Sobre({ content }: ContentProps){
   return(
     <>
       <Head>
-        <title>Quem somos? | Sujeito Programador</title>
+        <title>Quem sou? | Prof Erica Madalena</title>
       </Head>
       <main className={styles.container}>
         <div className={styles.containerHeader}>
