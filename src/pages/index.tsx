@@ -46,7 +46,7 @@ export default function Home({ content }: ContentProps) {
         </section>
 
         <img 
-            src="/images/banner-conteudos.png" 
+            src="/images/banner-conteudos.jpg" 
             alt="Conteúdos Sujeito Programador" 
         />
       </div>
@@ -75,7 +75,7 @@ export default function Home({ content }: ContentProps) {
 
       <div className={styles.nextLevelContent}>
         <Image quality={100} src={techsImage} alt="Tecnologias" />
-        <h2>Mais de <span className={styles.alunos}>15 mil</span> já levaram sua carreira ao próximo nivel.</h2>
+        <h2>Vá além dos livros didáticos e aguce,  <span className={styles.alunos}>nos alunos</span> , a curiosidade para buscarem mais informações sobre a cultura dos povos que lhe deram origem.</h2>
         <span>E você vai perder a chance de evoluir de uma vez por todas?</span>
         <a href={content.linkAction}>
           <button>ACESSAR TURMA!</button>
